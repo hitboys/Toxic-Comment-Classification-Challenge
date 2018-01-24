@@ -2,7 +2,7 @@ import os
 import argparse
 
 parser = argparse.ArgumentParser(description="** download datasets **")
-parser.add_argument('-glove', type=str, default=None, help="download glove pre-train vectors, parameter: [840b, ]")
+parser.add_argument('-glove', type=str, default=None, help="download glove pre-train vectors, parameter: [840b, 42b, 6b, twitter]")
 args = parser.parse_args()
 
 def download_glove(name):
